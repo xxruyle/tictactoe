@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script language="javascript" type="text/javascript" src="script.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="message-container">
+        <div class="message">Enter info to start playing!</div> 
+    </div>
+
+        <div class="board-container">
+            <div data-id="0" class="row">
+                <div data-id="0" class="square"></div>
+                <div data-id="1" class="square"></div>
+                <div data-id="2" class="square"></div>
+            </div>
+            <div data-id="1" class="row">
+                <div data-id="0" class="square"></div>
+                <div data-id="1" class="square"></div>
+                <div data-id="2" class="square"></div>
+            </div>
+            <div data-id="2" class="row">
+                <div data-id="0" class="square"></div>
+                <div data-id="1" class="square"></div>
+                <div data-id="2" class="square"></div>
+            </div>
+        </div>
+
+
+        
+        <form action="index.html" method="post" id="playerNames">
+            <div class="info-input">
+                <input type="text" name="player1_name" placeholder="Player X"/>
+                <input type="text" name="player2_name" placeholder="Player O"/> 
+            </div>
+            <div class="btn-container">
+                <button id="start" class="btn-submit" type="submit">Start</button>
+                <button id="restart" class="btn-submit">Restart</button>
+            </div>
+        </form>
+
+</body>
+</html>
